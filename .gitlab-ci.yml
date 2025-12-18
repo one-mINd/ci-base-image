@@ -2,7 +2,7 @@
 stages:
   - build_and_push
 services:
-  - docker:23.0.0-dind
+  - docker:27.0.0-dind
 
 .common_build:
   stage: build_and_push
